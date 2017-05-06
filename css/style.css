@@ -20,7 +20,8 @@ body {
 /*header start*/
 
 header {
-    background-color: gray;
+    background-color: #35424a;
+    color: #ffffff;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -36,6 +37,9 @@ header h1 {
 
 /*boxes start*/
 
-
+    .boxes a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
 
 /*boxes end*/
