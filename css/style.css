@@ -35,11 +35,40 @@ header h1 {
 
 /*header end*/
 
+
 /*boxes start*/
 
-    .boxes a {
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+#boxes {
+    margin-top: 30px;
+}
+
+.box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.button1 {
+    background-color: #35424a;
+    color: #ffffff;
+    border: #35424a 2px solid;
+    border-radius: 3px;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #f4f4f4;
+    color: #35424a;
+}
 
 /*boxes end*/
