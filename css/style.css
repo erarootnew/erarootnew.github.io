@@ -1,91 +1,115 @@
-            /*global start*/
+/*global start*/
 
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-                background-color: #f4f4f4;
-                padding: 0;
-                margin: 0;
-            }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
 
-            .container {
-                width: 80%;
-                margin: auto;
-                overflow: hidden;
-            }
-            /*global end*/
-            /*header start*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
 
-            header {
-                background-color: #35424a;
-                color: #ffffff;
-                text-align: center;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                min-height: 70px;
-            }
 
-            header h1 {
-                font-size: 40px;
-            }
-            /*header end*/
-            /*boxes start*/
+/*global end*/
 
-            #boxes {
-                margin-top: 30px;
-            }
 
-            .box {
-                float: left;
-                text-align: center;
-                width: 30%;
-                padding: 10px;
-            }
+/*header start*/
 
-            .button1 {
-                background-color: #35424a;
-                color: #ffffff;
-                border: #35424a 2px solid;
-                border-radius: 3px;
-                padding: 8px 18px;
-                text-align: center;
-                text-decoration: none;
-                text-transform: uppercase;
-                display: inline-block;
-                font-size: 16px;
-                margin: 4px 2px;
-                -webkit-transition-duration: 0.4s;
-                /* Safari */
-                transition-duration: 0.4s;
-                cursor: pointer;
-            }
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 70px;
+}
 
-            .button1:hover {
-                background-color: #f4f4f4;
-                color: #35424a;
-            }
-            /*boxes end*/
-            /*media queries start*/
+header h1 {
+    font-size: 40px;
+}
 
-            @media(max-width: 768px) {
-                .box {
-                    float: none;
-                    text-align: center;
-                    width: 100%;
-                }
-                iframe {
-                    float: none;
-                    text-align: center;
-                    width: 92%;
-                    
-                }
-            }
 
-            @media(max-width: 1202px) {
-                
-                iframe {
-                    
-                    width: 90%;
-                    
-                }
-            }
-            /*media queries end*/
+/*header end*/
+
+
+/*boxes start*/
+
+#boxes {
+    margin-top: 30px;
+}
+
+.box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.button1 {
+    background-color: #35424a;
+    color: #ffffff;
+    border: #35424a 2px solid;
+    border-radius: 3px;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #f4f4f4;
+    color: #35424a;
+}
+
+
+/*boxes end*/
+
+
+/*footer start*/
+
+footer {
+  padding:20px;
+  margin-top:30px;
+  color:#ffffff;
+  background-color:#35424a;
+  text-align: center;
+  font-size: 12px;
+}
+
+/*footer end*/
+
+
+/*media queries start*/
+
+@media(max-width: 768px) {
+    .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    iframe {
+        float: none;
+        text-align: center;
+        width: 92%;
+    }
+}
+
+@media(max-width: 1202px) {
+    iframe {
+        width: 90%;
+    }
+}
+
+
+/*media queries end*/
